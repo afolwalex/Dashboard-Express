@@ -1,0 +1,79 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*============ DASHBOARD ==================*/
+#body-row {
+	margin-left:0;
+	margin-right:0;
+}
+.sidebar {
+	min-height: 100vh;   
+  background: #212F3C;
+  width: 200px;
+}
+.sidebar-collapsed {
+	width: 70px !important;
+}
+.sidebar-separator-title {
+	background-color: #212F3C;
+	height: 20px;
+}
+#collapse-icon {
+  color: #ffffff;
+}
+.toggleIt:hover{
+  background: none !important;
+}
+.sidebar a{
+  padding: 20px 5px 15px 35px;
+  margin-bottom: 10px;
+}
+.dashboard-link {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.sidebar a .fa{
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.dashboard-link:hover{
+  text-decoration: none;
+  background: #B2BABB;
+  color: #ffffff;
+}
+.active{
+  text-decoration: none;
+  background: #B2BABB;
+  color: #ffffff;
+}
+
+/*=========PROFILE=============*/
+.profile-form{
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #17202A;
+}
+.profile-form:focus{
+  border-color: #f00;
+}
+
+/*============ MEDIA QUERIES ===============*/
+@media (max-width: 500px) {
+  .sidebar{
+    width: 150px;
+  }
+  .sidebar a{
+    padding: 10px 5px 15px 20px;
+  }
+  .dashboard-link{
+    font-size: .9rem;
+  }
+  .sidebar a .fa{
+    font-size: 1rem;
+  }
+}
+
